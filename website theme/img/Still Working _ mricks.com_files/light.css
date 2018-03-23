@@ -1,0 +1,229 @@
+/* @override http://www.mricks.com/wp-content/themes/garnish/css/light.css */
+
+/*==========================================================================================
+	
+Light CSS File
+This file contains styles related to the colour scheme of the theme
+
+==========================================================================================
+
+	1.	Global Colours
+	2.	Header Colours
+	3.	Home Template Colours
+	4.	Post Formats
+	5.	Widgets
+	6. 	Comments
+	7.	Shortcodes
+
+==========================================================================================*/
+
+/*==========================================================================================
+	1.	Global Colours
+==========================================================================================*/
+
+body {
+	color: #a1a3a6;
+	background-color: #fdfdfd;
+}
+
+input,
+textarea{
+	border: 1px solid #C9C9C9;
+	background: #ffffff;
+	color: #545658;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f5f5f6, 5px 5px 0 0 #f5f5f6, 5px 0 0 0 #f5f5f6, 0 5px 0 0 #f5f5f6, 5px -5px 0 0 #f5f5f6, -5px 5px 0 0 #f5f5f6;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f5f5f6, 5px 5px 0 0 #f5f5f6, 5px 0 0 0 #f5f5f6, 0 5px 0 0 #f5f5f6, 5px -5px 0 0 #f5f5f6, -5px 5px 0 0 #f5f5f6;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f5f5f6, 5px 5px 0 0 #f5f5f6, 5px 0 0 0 #f5f5f6, 0 5px 0 0 #f5f5f6, 5px -5px 0 0 #f5f5f6, -5px 5px 0 0 #f5f5f6;
+}
+
+input:focus,
+textarea:focus{
+	border: 1px solid #bbbbbb;
+	background: #ffffff;
+	color: #545658;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f1f1f3, 5px 5px 0 0 #f1f1f3, 5px 0 0 0 #f1f1f3, 0 5px 0 0 #f1f1f3, 5px -5px 0 0 #f1f1f3, -5px 5px 0 0 #f1f1f3;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f1f1f3, 5px 5px 0 0 #f1f1f3, 5px 0 0 0 #f1f1f3, 0 5px 0 0 #f1f1f3, 5px -5px 0 0 #f1f1f3, -5px 5px 0 0 #f1f1f3;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #f1f1f3, 5px 5px 0 0 #f1f1f3, 5px 0 0 0 #f1f1f3, 0 5px 0 0 #f1f1f3, 5px -5px 0 0 #f1f1f3, -5px 5px 0 0 #f1f1f3;
+}
+
+#tagline span,
+a { color: #545658; }
+
+#primary-menu a:hover,
+#primary-menu li.current-cat > a,
+#primary-menu li.current_page_item > a,
+#primary-menu li.current-menu-item > a,
+#primary-menu > .sfHover > a,
+a:hover { color: #a1a3a6; }
+
+.line { border-bottom: 1px solid #dddfe2; }
+
+.post-thumb .overlay,
+.overlay { background: url(../images/light/overlay.png) repeat; }
+
+.overlay .arrow { background: url(../images/light/arrow.gif) repeat; }
+
+/*==========================================================================================
+	2.	Header Colours
+==========================================================================================*/
+
+#primary-nav ul ul li { 
+	border-left: 1px solid #dddfe2; 
+	background: #fdfdfd;
+}
+
+/*==========================================================================================
+	3.	Home Template Colours
+==========================================================================================*/
+
+#loading{ background: #fdfdfd url(../images/light/ajax-loader.gif) center no-repeat; }
+
+#portfolio-items .overlay .entry-content,
+#portfolio-terms a.active { color: #a1a3a6; }
+
+#portfolio-items .entry-title { color: #fbfbfb; }
+
+#portfolio-items .hentry .line { border-bottom: 1px solid #6e7073; }
+
+#portfolio-items .entry-content { color: #cfd1d5; }
+
+#portfolio-items li { background: #eceeef; }
+
+#magic-door-wrap {
+	border-bottom: 1px solid #e1e4e7;
+	background: #eceeef;
+	border-top: 1px solid #e1e4e7; 
+}
+
+#magic-door .line { border-bottom: 1px solid #c5c7ca; }
+
+#magic-door .entry-content a:hover, 
+#magic-door .entry-title,
+#magic-door .entry-content { color: #545658; }
+
+#magic-door .entry-content a { color: #a1a3a6; }
+
+#portfolio-nav li a { background-image: url(../images/light/portfolio_nav.gif); }
+
+
+#slider .pagination li a,
+.slider .pagination li a { background-image: url(../images/light/slider_nav.png); }
+
+/*==========================================================================================
+	4.	Post Formats
+==========================================================================================*/
+
+.published { border-top: 1px solid #dddfe2; }
+
+.overlay .entry-content,
+.navigation a:hover,
+.published a:hover,
+.published,
+.entry-title,
+.entry-content,
+.entry-content a:hover,
+.entry-meta a:hover{ 
+	color: #545658; 
+}
+
+.published a { color: #a1a3a6; }
+
+.entry-content a { 
+	color: #a1a3a6;
+	border-bottom: 1px solid #dddfe2;
+}
+
+.navigation a,
+.entry-meta a { color: #a1a3a6; }
+
+.comment-reply-link,
+.format-link .entry-title a span,
+.more-link span { background: url(../images/light/more_link_arrow.png) right center no-repeat; }
+
+blockquote { 
+	border-left: 2px solid #a1a3a6;
+	color: #a1a3a6
+}
+
+pre { background: url(../images/light/pre.gif) repeat; }
+
+code { background: #f5f5f5; }
+
+/*==========================================================================================
+	5.	Widgets
+==========================================================================================*/
+
+.widget_search input:focus,
+.widget-title { color: #545658; }
+
+.widget_search input,
+.widget a { color: #a1a3a6; }
+
+.widget,
+.widget a:hover { color: #545658; }
+
+.flickr_badge_image a img { border: 4px solid #eceeee; }
+
+.flickr_badge_image a:hover img { border: 4px solid #545658; }
+
+
+/*==========================================================================================
+	6.	Comments
+==========================================================================================*/
+
+.left-line,
+.right-line,
+.comment-body,
+.comment-meta,
+#respond-caption { 
+	border-top: 1px solid #dddfe2; 
+ 	color: #545658;
+}
+
+.author span a:hover,
+.author a:hover,
+a:hover.comment-reply-link,
+#comments,
+#respond label,
+#respond h3 { color: #545658; }
+
+.author span a,
+.comment-reply-link,
+#respond label span,
+#respond label small { color: #a1a3a6; }
+
+.contactform #submit-button,
+#commentform #submit-button {
+	background: url(../images/light/submit_button.png);
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #c3c3c3;
+	color: #555555;
+}
+
+.contactform #submit-button:hover,
+#commentform #submit-button:hover { background: url(../images/light/submit_button.png) 0 -28px; }
+
+/*==========================================================================================
+	7.	Shortcodes
+==========================================================================================*/
+
+.tabs ul.nav li a { background: #FDFDFD; }
+
+.tabs ul.nav li.ui-tabs-selected a,
+.tabs ul.nav li.ui-tabs-active a { 
+	background: #F1F1F1;
+	color: #555555;
+}
+
+.tabs .tab { background: #F1F1F1; }
+
+.tabs .tab {
+	background: #F1F1F1;
+	color: #555555;
+}
+
+.toggle h4 {
+	background: #F1F1F1;
+	color: #555555;
+} 
